@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Card案内所</title>
+    <link href="https://fonts.googleapis.com/css?family=Amatic+SC" rel="stylesheet">
+    <link type="text/css" rel="stylesheet" href="css/reset.css">
+    <link type="text/css" rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="header">
+        <h1 class="logo">Card案内所(JavaScript)</h1>
+    </header>
+    <main class="main">
+        <div class="presentation js-presentation">
+            <h2 class="heading">ぴったりのクレジットカードを<br class="sp-br">提案いたします。</h2>
+            <p class="text text-center">質問に答えて<br class="sp-br">クレジットカードを提案してもらおう！</p>
+        </div>
+        <div class="question js-annualFee">
+            <p class="text text-center">Q1.年会費は無料がいい？</p>
+            <div class="choices">
+                <p class="text choice choice-blue js-click-free">無料がいい！</p>
+                <p class="text choice choice-red js-click-paid">有料でもいい！</p>
+            </div>
+        </div>
+        <div class="question js-travel invisible">
+            <p class="text text-center">Q2.よく旅行に行く？</p>
+            <div class="choices">
+                <p class="text choice choice-blue js-go">旅行に行く！</p>
+                <p class="text choice choice-red js-notGO">旅行に行かない！</p>
+            </div>
+        </div>
+        <div class="question js-miles invisible">
+            <p class="text text-center">Q2.マイル重視？<br class="sp-br">それともステータス重視？</p>
+            <div class="choices">
+                <p class="text choice choice-blue js-miles-important">マイル重視！</p>
+                <p class="text choice choice-red js-status-important">ステータス重視！</p>
+            </div>
+        </div>
+        <div class="answer js-cedyna invisible">
+            <h2 class="heading">あなたにおすすめのカードは・・・</h2>
+            <img src="img/cedyna.jpg" alt="card" class="img">
+            <h3 class="card-name text-center">セディナカード</h3>
+            <p class="text answer-text text-center">
+                海外旅行に行くと何かと必要な現地通貨。<br class="pc-br">
+                セディナカードを使えば海外キャッシングで<br class="pc-br">
+                割安で現地通貨を調達できちゃいます。<br class="pc-br">
+            </p>
+            <a href="https://www.cedyna.co.jp/card/lineup/detail/cedyna/" class="text toOfficial text-center" target="_blank">→公式サイトはこちら！</a>
+        </div>
+        <div class="answer js-smbc invisible">
+            <h2 class="heading">あなたにおすすめのカードは・・・</h2>
+            <img src="img/smbc.png" alt="card" class="img">
+            <h3 class="card-name text-center">三井住友カード</h3>
+            <p class="text answer-text text-center">
+                決済に便利なカードは三井住友カード<br class="pc-br">
+                Apple Payを使えば、スマホだけでも決済可能。<br class="pc-br">
+                タッチIDを使えば、1秒で決済完了<br class="pc-br">
+            </p>
+            <a href="https://www.smbc-card.com/nyukai/numberless/index.html" class="text text-center toOfficial" target="_blank">→公式サイトはこちら！</a>
+        </div>
+        <div class="answer js-ana invisible">
+            <h2 class="heading">あなたにおすすめのカードは・・・</h2>
+            <img src="img/ana.png" alt="card" class="img">
+            <h3 class="card-name text-center">ANAアメリカンエキスプレスカード</h3>
+            <p class="text text-center answer-text">
+                マイルを効率よく貯めるならこの1枚。<br class="pc-br">
+                普段のお買い物から公共料金のお支払いまで幅広く対応。<br class="pc-br">
+                マイルを貯めて旅行に行こう！<br class="pc-br">
+            </p>
+            <a href="https://www.americanexpress.com/jp/credit-cards/ana-classic-card/" class="text text-center toOfficial" target="_blank">→公式サイトはこちら！</a>
+        </div>
+        <div class="answer js-amex invisible">
+            <h2 class="heading">あなたにおすすめのカードは・・・</h2>
+            <img src="img/platinum.png" alt="card" class="img">
+            <h3 class="card-name text-center">アメリカンエキスプレス<br class="sp-br">プラチナカード</h3>
+            <p class="text text-center answer-text">
+                ステータスを重視するならこの1枚。<br class="pc-br">
+                ステータスマッチでいきなりゴールド会員になれちゃうことも！<br class="pc-br">
+                きっとあなたの生活を豊かにしてくれる！<br class="pc-br">
+            </p>
+            <a href="https://www.americanexpress.com/jp/credit-cards/platinum-card/" class="text text-center toOfficial" target="_blank">→公式サイトはこちら！</a>
+        </div>
+    </main>
+    <script src="js/app.js"></script>
+</body>
+</html>
